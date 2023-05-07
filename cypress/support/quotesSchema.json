@@ -1,0 +1,601 @@
+{
+    "type": "object",
+    "properties": {
+      "has_next": {
+        "type": "boolean"
+      },
+      "page": {
+        "type": "integer"
+      },
+      "quotes": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "author": {
+                "type": "object",
+                "properties": {
+                  "goodreads_link": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "goodreads_link",
+                  "name",
+                  "slug"
+                ]
+              },
+              "tags": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "author",
+              "tags",
+              "text"
+            ]
+          }
+        ]
+      },
+      "tag": {
+        "type": "null"
+      },
+      "top_ten_tags": {
+        "type": "array",
+        "items": [
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "has_next",
+      "page",
+      "quotes",
+      "tag",
+      "top_ten_tags"
+    ]
+  }

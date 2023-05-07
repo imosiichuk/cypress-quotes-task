@@ -1,0 +1,21 @@
+name: Run Cypress Tests
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Cypress
+        uses: cypress-io/github-action@v3
+        with:
+          browser: chrome
+          headless: true
+          record: true
+        # after the test run completes
+        # store videos and any screenshots
+        # NOTE: screenshots will be generated only if E2E test failed
+        # thus we store screenshots only on failures
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
